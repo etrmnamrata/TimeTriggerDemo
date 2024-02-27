@@ -45,7 +45,7 @@ quantity
 
             foreach(var product in response.Result.Data.products)
             {
-                Console.WriteLine($"{product.Name}, {product.Quantity}");
+                Console.WriteLine($"{product.Name},,,{product.Quantity}");
             }
         }
     }

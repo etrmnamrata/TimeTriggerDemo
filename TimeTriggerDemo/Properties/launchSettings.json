@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "TimeTriggerDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7067"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32848,
+      "useSSL": false
+    }
+  }
+}
